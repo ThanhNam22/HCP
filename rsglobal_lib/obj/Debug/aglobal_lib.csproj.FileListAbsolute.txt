@@ -1,0 +1,9 @@
+D:\ECGM\rsglobal_lib\obj\Debug\aglobal_lib.csproj.AssemblyReference.cache
+D:\ECGM\rsglobal_lib\obj\Debug\aglobal_lib.csproj.CoreCompileInputs.cache
+D:\ECGM\rsglobal_lib\obj\Debug\rsglobal_lib.dll
+D:\ECGM\rsglobal_lib\obj\Debug\rsglobal_lib.pdb
+D:\ECGM\rsglobal_lib\bin\Debug\rsglobal_lib.dll
+D:\ECGM\rsglobal_lib\bin\Debug\rsglobal_lib.pdb
+D:\ECGM\rsglobal_lib\bin\Debug\rsbo_lib.dll
+D:\ECGM\rsglobal_lib\bin\Debug\rsbo_lib.pdb
+D:\ECGM\rsglobal_lib\obj\Debug\aglobal_lib.csproj.CopyComplete

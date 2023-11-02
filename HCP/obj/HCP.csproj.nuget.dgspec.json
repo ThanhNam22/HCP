@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\NghienCuu\\HCP\\HCP\\HCP.csproj": {}
+  },
+  "projects": {
+    "D:\\NghienCuu\\HCP\\HCP\\HCP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\NghienCuu\\HCP\\HCP\\HCP.csproj",
+        "projectName": "HCP",
+        "projectPath": "D:\\NghienCuu\\HCP\\HCP\\HCP.csproj",
+        "packagesPath": "C:\\Users\\AN515-43\\.nuget\\packages\\",
+        "outputPath": "D:\\NghienCuu\\HCP\\HCP\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AN515-43\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Ky_phu_2023\\ASP.NET\\ôn KTTX2\\HuongDanCaiDat_EF_OFF\\NUGET": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj": {
+                "projectPath": "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj"
+              },
+              "D:\\NghienCuu\\HCP\\rsdao_lib\\adao_lib.csproj": {
+                "projectPath": "D:\\NghienCuu\\HCP\\rsdao_lib\\adao_lib.csproj"
+              },
+              "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj": {
+                "projectPath": "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj",
+        "projectName": "abo_lib",
+        "projectPath": "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj",
+        "frameworks": {
+          "net35": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      }
+    },
+    "D:\\NghienCuu\\HCP\\rsdao_lib\\adao_lib.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\NghienCuu\\HCP\\rsdao_lib\\adao_lib.csproj",
+        "projectName": "adao_lib",
+        "projectPath": "D:\\NghienCuu\\HCP\\rsdao_lib\\adao_lib.csproj",
+        "frameworks": {
+          "net35": {
+            "projectReferences": {
+              "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj": {
+                "projectPath": "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj"
+              },
+              "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj": {
+                "projectPath": "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      }
+    },
+    "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj",
+        "projectName": "global_lib",
+        "projectPath": "D:\\NghienCuu\\HCP\\rsglobal_lib\\global_lib.csproj",
+        "frameworks": {
+          "net35": {
+            "projectReferences": {
+              "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj": {
+                "projectPath": "D:\\NghienCuu\\HCP\\rsbo_lib\\abo_lib.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net35": {}
+      }
+    }
+  }
+}
